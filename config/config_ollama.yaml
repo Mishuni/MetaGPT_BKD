@@ -1,0 +1,9 @@
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
+# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
+# Config Docs: https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html
+llm:
+  api_type: "ollama.local"  # or azure / ollama / groq etc.
+  model: "deepseek-r1:70b"  # or gpt-3.5-turbo
+  base_url: "http://localhost:11434"  # or forward url / other llm url
+  stream: false
+  api_key: "sk-8yz9UA"
